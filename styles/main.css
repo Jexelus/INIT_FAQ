@@ -85,7 +85,7 @@ body {
 
 .faq-header{
     font-size: 42px;
-    border-bottom: 1px dotted #ccc;
+    /* border-bottom: 1px dotted #ccc; */
     padding: 24px;
   }
   
@@ -95,7 +95,7 @@ body {
   
 .faq-question {
     padding: 20px 0;
-    border-bottom: 1px dotted #ccc;
+    /* border-bottom: 1px dotted #ccc; */
   }
   
 .panel-title {
