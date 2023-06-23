@@ -12,11 +12,11 @@ body {
     margin-right: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
-    
+    background-color: rgb(54, 54, 54);
 }
 
 .head {
-    background-image: url(../img/maxresdefault-1.jpg);
+    background-image: url(../img/rs.png);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -31,8 +31,7 @@ body {
     display: flex;
     justify-content: center;
     background-size: cover;
-    backdrop-filter: blur(10px);
-    
+    backdrop-filter: blur(4px);
 }
   
 .marquee {
@@ -116,7 +115,7 @@ body {
     overflow: hidden;
     z-index: -1;
     position: relative;
-    opacity: 0;
+    opacity: 1;
     -webkit-transition: .4s ease;
     -moz-transition: .4s ease;
     -o-transition: .4s ease;
@@ -127,6 +126,7 @@ body {
     height: auto;
     opacity: 1;
     padding: 14px;
+    z-index: 0;
   }
   
 .plus {
